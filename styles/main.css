@@ -6,7 +6,7 @@
 
 .button {
   text-decoration: none;
-  background: #f14848;
+  background-color: #f14848;
   color: white;
   width: 120px;
   height: 80px;
@@ -19,8 +19,25 @@
 
 .revers_button {
   text-decoration: none;
+  background-color: white;
   color: #f14848;
-  background: white;
+  width: 120px;
+  height: 80px;
+  position: relative;
+  padding: 10px;
+  -moz-border-radius:    100px;
+  -webkit-border-radius: 100px;
+  border-radius:         100px;
+}
+
+.upper_footer {
+  background-color: #1e2024;
+  color: #3d3d3d;
+}
+
+.downer_footer {
+  background-color: #151515;
+  color: #636363;
 }
 
 /*
@@ -76,13 +93,5 @@ header a:focus + ul {
   float:right
 }
 
-.upper_footer {
-  background: #1e2024;
-  color: #3d3d3d;
-}
 
-.downer_footer {
-  background: #151515;
-  color: #636363;
-}
 */
