@@ -4,6 +4,10 @@
   }
 }
 
+a {
+  text-decoration: none;
+}
+
 .button {
   text-decoration: none;
   background-color: #f14848;
