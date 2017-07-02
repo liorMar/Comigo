@@ -6,19 +6,21 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comigo Experience Intelligence- creating TV that understands</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
   </head>
   <body>
-    <header id="home">
+    <header>
       <a href="#home"><img src="assets/logo/comigo-logo-black.png" alt="Comigo logo"></a>
 
-      <nav>
-        <ul>
+      <nav class="navigation">
+        <ul class="first_level_nev">
           <li>
-            <a href="#home">Home</a>
+            <a href="#" class="selected_nav">Home</a>
           </li>
           <li>
-            <a href="#">Our Solutions</a>
-            <ul>
+            <a href="#" id="nav_sol">Our Solutions</a>
+            <ul id="second_level_sol">
               <li><a href="#">EI Cloud</a>
                 <ul>
                   <li><a href="#">EIˣ</a></li>
@@ -58,7 +60,7 @@
     <main>
       <section>
         <h2>Make your OTT shine with the Experience Intelligence Cloud</h2>
-        <a href="#">SCHEDULE A DEMO</a>
+        <a href="#" class="button">SCHEDULE A DEMO</a>
       </section>
 
       <section>
@@ -68,12 +70,10 @@
           with automatic metadata enrichment
           and Artificial Intelligence (AI)
         </p>
-        <a href="#">LEARN MORE</a>
+        <a href="#" class="button">LEARN MORE</a>
       </section>
 
       <saction>
-        <p>ENGAGE VIEWERS, DIFFERENTIATE EXPERIENCE AND DRIVE NEW REVENUE with highly-relevant contextual services</p>
-
         <ul type="none">
           <li>
             <video
@@ -119,6 +119,8 @@
           </li>
         </ul>
 
+        <p>ENGAGE VIEWERS, DIFFERENTIATE EXPERIENCE AND DRIVE NEW REVENUE with highly-relevant contextual services</p>
+
         <ul type="none">
           <li>
             <a href="#pedia">PEDIA</a>
@@ -130,7 +132,7 @@
             <a href="#discovery">DISCOVERY</a>
           </li>
           <li>
-            <a href="#commerce">COMMERCE</a>
+            <a href="#commerce">COMMERCE</a>f
           </li>
           <li>
             <a href="#advertising">ADVERTISING</a>
@@ -185,12 +187,12 @@
           ENHANCE ANY TV SERVICE
           Comigo Experience Intelligence (EI)
         </h2>
-        <a href="#">ENHANCE YOUR OTT TV</a>
+        <a href="#" class="revers_button">ENHANCE YOUR OTT TV</a>
         <h2>
           EPLOY BEST IN CLASS TV SERVICE
           Comigo's Android-based STB (HW&MW)
         </h2>
-        <a href="#">DEPLOY ON ANDROID</a>
+        <a href="#" class="button">DEPLOY ON ANDROID</a>
       </section>
 
       <section>
@@ -272,7 +274,7 @@
           <ul type="none">
             <li>
               <a href="#">
-                <p class="">What We Learned at TV Connect 2016</p>
+                <p class="learn">What We Learned at TV Connect 2016</p>
                 READ MORE
               </a>
             </li>
@@ -310,7 +312,7 @@
     </main>
 
     <footer>
-      <section>
+      <section class="upper_footer">
         <ul>
           <li>
             <ul>
@@ -340,7 +342,7 @@
         <a href="#home"><img src="assets/logo/comigo-logo-white.png" alt="logo white"></a>
       </section>
 
-      <section>
+      <section class="downer_footer">
         <ul>
           <li>All rights reserved Comigo &copy; 2016</li>
           <li><a href="#" target="_blank">Terms of Use</a></li>
