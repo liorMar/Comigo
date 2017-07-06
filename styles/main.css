@@ -155,7 +155,7 @@ ul {
 }
 
 .star-h2 {
-  font-size: 6rem;
+  font-size: 6vw;
   font-weight:normal;
   text-align: center;
   padding: 10vw 10vw 0 10vw;
@@ -168,13 +168,22 @@ ul {
 }
 
 .why-content {
-  padding: 100px 0;
+  margin: 6% 0 9% 0;
   text-align: center;
 }
 
+.why-h2 {
+  font-size: 4vw;
+  margin: 0;
+}
+
 .why-p {
-  font-size: 1rem;
-  padding: 0 40% 16px 40%;
+  font-size: 1.8vw;
+  padding: 0 36.5% 16px 36.5%;
+}
+
+.why-button {
+  letter-spacing: 2px;
 }
 /*----------fonts-------------*/
 
