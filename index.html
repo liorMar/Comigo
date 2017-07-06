@@ -6,75 +6,83 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Comigo Experience Intelligence- creating TV that understands</title>
-    <link rel="stylesheet" href="styles/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles/Normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
     <header>
-      <a href="#home"><img src="assets/logo/comigo-logo-black.png" alt="Comigo logo"></a>
+      <div>
+        <a href="#home" class="logo"><img src="assets/logo/comigo-logo-black.png" alt="Comigo logo"></a>
 
-      <nav class="navigation">
-        <ul class="first_level_nev">
-          <li>
-            <a href="#" class="selected_nav">Home</a>
-          </li>
-          <li>
-            <a href="#" id="nav_sol">Our Solutions</a>
-            <ul id="second_level_sol">
-              <li><a href="#">EI Cloud</a>
-                <ul>
-                  <li><a href="#">EIˣ</a></li>
-                  <li><a href="#">EI Mind</a></li>
-                </ul>
-              </li>
-              <li><a href="#">EI Middleware</a>
-                <ul>
-                  <li><a href="#">Android</a></li>
-                  <li><a href="#">Comigo WhatchApp&trade; Applications</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Android STB</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Partners</a>
-          </li>
-          <li>
-            <a href="#">Industry Insights</a>
-            <ul>
-              <li><a href="#">Media Room</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Industry Events</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
+        <nav class="navigation">
+          <ul class="first_level_nev">
+            <li>
+              <a href="#" class="selected_nav">Home</a>
+            </li>
+            <li>
+              <a href="#">Our Solutions</a>
+              <ul class="second_level_nav">
+                <li>
+                  <a href="#">EI Cloud</a>
+                  <ul>
+                    <li><a href="#" class="">EIˣ</a></li>
+                    <li><a href="#" class="">EI Mind</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="">EI Middleware</a>
+                  <ul>
+                    <li><a href="#" class="">Android</a></li>
+                    <li><a href="#" class="">Comigo WhatchApp&trade; Applications</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="">Android STB</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Partners</a>
+            </li>
+            <li>
+              <a href="#">Industry Insights</a>
+              <ul class="second_level_nav">
+                <li><a href="#" class="">Media Room</a></li>
+                <li><a href="#" class="">Blog</a></li>
+                <li><a href="#" class="">Industry Events</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section>
-        <h2>Make your OTT shine with the Experience Intelligence Cloud</h2>
-        <a href="#" class="button">SCHEDULE A DEMO</a>
-      </section>
+      <div class="star_BG">
+        <section class="brain star-content">
+          <h2 class="star-h2">Make your OTT shine with the Experience Intelligence Cloud</h2>
+          <a href="#" class="button uppercase sched-button">schedule a demo</a>
+        </section>
+      </div>
 
-      <section>
-        <h2>WHY COMIGO?</h2>
-        <p>
+      <section class="why-content">
+        <h2 class="lighter font-size-2_6em uppercase">why comigo?</h2>
+        <p class="color-light_gray why-p">
           Creating a TV that understands,
           with automatic metadata enrichment
           and Artificial Intelligence (AI)
         </p>
-        <a href="#" class="button">LEARN MORE</a>
+        <a href="#" class="button uppercase">learn more</a>
       </section>
 
-      <saction>
-        <ul type="none">
+      <saction class="ignore">
+        <ul>
           <li>
             <video
               src="./assets/videos/video-soccer_2.mp4"
@@ -121,28 +129,28 @@
 
         <p>ENGAGE VIEWERS, DIFFERENTIATE EXPERIENCE AND DRIVE NEW REVENUE with highly-relevant contextual services</p>
 
-        <ul type="none">
+        <ul>
           <li>
-            <a href="#pedia">PEDIA</a>
+            <a href="#pedia">pedia</a>
           </li>
           <li>
-            <a href="#participation">PARTICIPATION</a>
+            <a href="#participation">participation</a>
           </li>
           <li>
-            <a href="#discovery">DISCOVERY</a>
+            <a href="#discovery">discovery</a>
           </li>
           <li>
-            <a href="#commerce">COMMERCE</a>f
+            <a href="#commerce">commerce</a>f
           </li>
           <li>
-            <a href="#advertising">ADVERTISING</a>
+            <a href="#advertising">advertising</a>
           </li>
           <li>
-            <a href="#customize">CUSTOMIZE</a>
+            <a href="#customize">customize</a>
           </li>
         </ul>
 
-        <ul type="none">
+        <ul>
           <li>
             <figure>
               <img src="assets/services/pedia.png" alt="pedia img" id="pedia">
@@ -183,16 +191,29 @@
       </saction>
 
       <section>
-        <h2>
-          ENHANCE ANY TV SERVICE
-          Comigo Experience Intelligence (EI)
-        </h2>
-        <a href="#" class="revers_button">ENHANCE YOUR OTT TV</a>
-        <h2>
-          EPLOY BEST IN CLASS TV SERVICE
-          Comigo's Android-based STB (HW&MW)
-        </h2>
-        <a href="#" class="button">DEPLOY ON ANDROID</a>
+        <div class="bg1_background one_by_one">
+          <div class="small_brain ">
+            <!--width-100 padding-top-400 margin-0-auto-0-30 width-400 text-align-left-->
+            <div class="enhance-content">
+              <h2 class="lighter enhance-content-h2">
+                ENHANCE ANY TV SERVICE
+              </h2>
+              <div class="enhance-content-div">comigo experience intelligence (ei)</div>
+              <a href="#" class="revers_button">ENHANCE YOUR OTT TV</a>
+            </div>
+          </div>
+        </div><!--
+        --><div class="bg2_background one_by_one">
+          <div class="consoles">
+            <div class="deploy-content">
+              <h2 class="lighter deploy-content-h2">
+                DEPLOY BEST IN CLASS TV SERVICE
+              </h2>
+              <div class="deploy-content-div">Comigo's Android-based STB (HW&MW)</div>
+              <a href="#" class="button">DEPLOY ON ANDROID</a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section>
@@ -214,7 +235,7 @@
           <h3>SCHEDULE A DEMO</h3>
         </a>
 
-        <ul type="none">
+        <ul>
           <li>
             <a href="#">facebook</a>
           </li>
@@ -267,42 +288,43 @@
       </section>
 
       <footer>
-        <section class="red_background">
-          <h2>OUR BLOG</h2>
-          THE INSIDE VIEW
-
-          <ul type="none">
-            <li>
+        <section>
+          <ul class="blog">
+            <li class="box">
+              <h2>OUR BLOG</h2>
+              THE INSIDE VIEW
+            </li><!--
+            --><li class="box">
               <a href="#">
-                <p class="learn">What We Learned at TV Connect 2016</p>
+                <p class="bg_ibc">What We Learned at TV Connect 2016</p>
                 READ MORE
               </a>
-            </li>
-            <li>
+            </li><!--
+            --><li class="box">
               <a href="#">
-                <p class="">
+                <p class="inteli_products">
                   Comigo's Experience Intelligence Products redefine TV - And You Can Find Out How at IBC2016
                 </p>
                 READ MORE
               </a>
-            </li>
-            <li>
+            </li><!--
+            --><li class="box">
               <a href="#">
-                <p class="">big data meets tv - the next phase in the tv experience evolution</p>
+                <p class="yoav">big data meets tv - the next phase in the tv experience evolution</p>
                 READ MORE
               </a>
-            </li>
-            <li>
+            </li><!--
+            --><li class="box">
               <a href="#">
-                <p class="">
+                <p class="post_tv">
                   Comigo will bring an infusion of internet power and contextual tv to life at tv connect 2016
                 </p>
                 READ MORE
               </a>
-            </li>
-            <li>
+            </li><!--
+            --><li class="box">
               <a href="#">
-                <p class="">Quality, set-top-boxes, crappy cars, and caveat Emptor</p>
+                <p class="finger_down">Quality, set-top-boxes, crappy cars, and caveat Emptor</p>
                 READ MORE
               </a>
             </li>
@@ -313,32 +335,35 @@
 
     <footer>
       <section class="upper_footer">
-        <ul>
-          <li>
-            <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">OUR SOLUTIONS</a></li>
-              <li><a href="#">EL CLOUD</a></li>
-              <li><a href="#">EL MIDDLEWARE</a></li>
-              <li><a href="#">ANDROID STB</a></li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li><a href="#">PARTNERS</a></li>
-              <li><a href="#">INDUSTRY INSIGHTS</a></li>
-              <li><a href="#">MEDIA ROOM</a></li>
-              <li><a href="#">BLOG</a></li>
-              <li><a href="#">INDUSTRY EVENTS</a></li>
-            </ul>
-          </li>
-          <li>
-            <ul>
-              <li><a href="#">ABOUT US</a></li>
-              <li><a href="#">CONTACT US</a></li>
-            </ul>
-          </li>
-        </ul>
+        <nav>
+          <ul>
+            <li>
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">OUR SOLUTIONS</a></li>
+                <li><a href="#">EL CLOUD</a></li>
+                <li><a href="#">EL MIDDLEWARE</a></li>
+                <li><a href="#">ANDROID STB</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="#">PARTNERS</a></li>
+                <li><a href="#">INDUSTRY INSIGHTS</a></li>
+                <li><a href="#">MEDIA ROOM</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">INDUSTRY EVENTS</a></li>
+              </ul>
+            </li>
+            <li>
+              <ul>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+
         <a href="#home"><img src="assets/logo/comigo-logo-white.png" alt="logo white"></a>
       </section>
 
@@ -350,9 +375,9 @@
           <li><a href="#" target="_blank">Privacy Policy</a></li>
         </ul>
 
-        Developed by: <a href="https://liormar.github.io/as-you-like/" target="_blank">Lior</a>
+        <h2 id="dev_by">Developed by: <a href="https://liormar.github.io/as-you-like/" target="_blank">Lior</a></h2>
 
-        <ul type="none">
+        <ul>
           <li>
             <a href="#">facebook</a>
           </li>

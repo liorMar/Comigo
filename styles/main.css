@@ -1,47 +1,388 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 @media (max-width: 700px) {
   .navigation {
     display: none;
   }
 }
 
-a {
-  text-decoration: none;
+.ignore {
+  display: none;
 }
 
-.button {
+/*---------colors------*/
+.color-white {
+  color: white;
+}
+
+.color-light_gray {
+  color: #636363
+}
+
+/*------buttons------*/
+
+.button , .revers_button {
   text-decoration: none;
   background-color: #f14848;
   color: white;
-  width: 120px;
-  height: 80px;
   position: relative;
-  padding: 10px;
-  -moz-border-radius:    100px;
-  -webkit-border-radius: 100px;
-  border-radius:         100px;
+  padding: 1vw 2vw;
+  border-radius: 30px;
+  letter-spacing: 1px;
+  font-size: 1vw;
 }
 
 .revers_button {
-  text-decoration: none;
   background-color: white;
   color: #f14848;
-  width: 120px;
-  height: 80px;
-  position: relative;
-  padding: 10px;
-  -moz-border-radius:    100px;
-  -webkit-border-radius: 100px;
-  border-radius:         100px;
 }
 
 .upper_footer {
   background-color: #1e2024;
-  color: #3d3d3d;
+}
+
+.upper_footer a {
+  color: #636363;
+}
+
+.upper_footer a:hover {
+  color: #f14848;
 }
 
 .downer_footer {
   background-color: #151515;
+}
+
+.downer_footer a {
+  color: #3d3d3d;
+}
+
+.downer_footer a:hover {
   color: #636363;
+}
+
+#dev_by {
+  color: #3d3d3d;
+}
+
+/*----------------------body-----------------------*/
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+}
+
+textarea, input, button, a { outline: none; }
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*----------------------header-----------------------*/
+
+.first_level_nev > li {
+  /*width: 100%;*/
+}
+
+.second_level_nav li {
+  width: 33%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+
+.second_level_nav li a {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+.navigation > ul > li > a:hover,
+.navigation > ul > li > a:focus {
+  color: #f14848;
+}
+
+.second_level_nav a:hover,
+.second_level_nav a:focus {
+  background-color: #f14848;
+  color: white;
+}
+
+.navigation .selected_nav {
+  color: #f14848;
+  font-weight: bold;
+}
+
+.navigation a {
+  color: #616161;
+}
+
+/*------other content------*/
+.star_BG {
+  background-image: url(../assets/other/home-featured-bg.png);
+  background-size:     cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 39.5vw;
+}
+
+.brain {
+  background-image: url(../assets/other/home-brain-image-new-1920x816.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: inherit;
+}
+
+.star-content {
+  text-align: center;
+  position: relative;
+  color: white;
+  /*height: 100%;*/
+}
+
+.star-h2 {
+  font-size: 6rem;
+  font-weight:normal;
+  text-align: center;
+  padding: 10vw 10vw 0 10vw;
+}
+
+.sched-button {
+  word-spacing: 3px;
+  /*padding: 0 2px;*/
+  font-size: 1.2vw;
+}
+
+.why-content {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.why-p {
+  font-size: 1rem;
+  padding: 0 40% 16px 40%;
+}
+/*----------fonts-------------*/
+
+.font-size-2_6em {
+  font-size: 2.6em;
+}
+
+.font-weight-400 {
+  font-weight: lighter;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.word-spacing {
+}
+
+/*---------positioning------*/
+
+.margin-25 {
+  margin: 25%;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.padding-25 {
+  padding: 25%;
+}
+
+.padding-top_bottom_60 {
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+.margin-0-auto {
+  margin: 0 auto;
+}
+
+.padding-top-20 {
+  padding-top: 20%;
+}
+
+.padding-top-400 {
+  padding-top: 400px;
+}
+
+.padding-top-380 {
+  padding-top: 380px;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.height_100{
+  height: 100%;
+}
+
+.width-100{
+  width: 100%;
+}
+
+.display-block {
+  display: block;
+}
+
+.width-400 {
+  width: 400px;
+}
+
+.margin-0-auto-0-30 {
+ margin: 0 auto 0 30%;
+}
+
+.margin-0-auto-0-10 {
+ margin: 0 auto 0 10%;
+}
+
+/*------enhance and deploy------*/
+
+
+.bg1_background {
+  background-image: url(../assets/other/home-tv-service-bg1.png);
+  background-size:     contain;
+  background-position: left center;
+}
+
+.bg2_background {
+  background-image: url(../assets/other/home-tv-service-bg2.png);
+  background-size:     contain;
+  background-position: left center;
+}
+
+.small_brain {
+  background-image: url(../assets/other/ic-EI-cloud-brain-hp.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 50%;
+  background-position-y: 4vw;
+  height: 100%;
+}
+
+.consoles {
+  background-image: url(../assets/other/ic-stb-screens.png);
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-position-x: 10%;
+  background-position-y: 10%;
+}
+
+.enhance-content {
+  height: 100%;
+  margin: 0 20vw 0 15vw;
+  padding-top: 47%;
+  font-size: 1vw;
+  color: white;
+}
+
+.enhance-content-h2 {
+  margin: 0;
+  font-size: 2.5vw;
+  color: white;
+}
+
+.enhance-content-div,
+.deploy-content-div {
+  display: block;
+  padding: 1vw 0 2.7vw 0;
+}
+
+.deploy-content {
+  height: 100%;
+  margin: 0 20vw 0 3.7vw;
+  padding-top: 47%;
+  font-size: 1vw;
+}
+
+.deploy-content-h2 {
+  margin: 0;
+  font-size: 2.5vw;
+}
+
+.one_by_one {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 42.5vw;
+  vertical-align: top;
+}
+
+/*---------------blog----------------*/
+
+.red_background {
+  background-color: #f14848;
+}
+
+.bg_ibc {
+  background-image: url(../assets/blog/ibc_post_EI-750x508.png);
+  height: 100%;
+}
+
+.inteli_products {
+  background-image: url(../assets/blog/IMG_9294-750x563.jpeg);
+  height: 100%;
+}
+
+.yoav {
+  background-image: url(../assets/blog/Image-Blog-Yoav_356121362-copy-750x563.jpg);
+}
+
+.post_tv {
+  background-image: url(../assets/blog/post_tv_connect-750x508.jpeg);
+}
+
+.finger_down {
+  background-image: url(../assets/blog/post_quality-750x508.jpeg);
+  background-size:     cover;
+
+}
+
+.blog .box {
+  width: 16.666%;
+  display: inline-block;
+  color: white;
+  background-color: #f14848;
+  height: 100%;
+}
+
+.blog {
+  height: 520px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.blog a {
+  color: white;
+}
+
+.blog ul {
+height: 100%;
+  display: block;
 }
 
 /*
@@ -83,10 +424,6 @@ header a:focus + ul {
   display: block;
 }
 
-.selected_nav {
-  color: #f14848;
-}
-
 .red_background {
   background: #f14848;
   color: white
@@ -96,6 +433,4 @@ header a:focus + ul {
   display: block;
   float:right
 }
-
-
 */
